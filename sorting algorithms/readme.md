@@ -2,17 +2,17 @@
 
 
 ## Bubble Sort
-function bubbleSort(arr)
+```function bubbleSort(arr)
     n = arr.length
     for i from 0 to n-1
         for j from 0 to n-i-1
             if arr[j] > arr[j+1]
                 swap arr[j] and arr[j+1]
-    return arr
+    return arr```
 
 
 ## Selection Sort
-function selectionSort(arr)
+```function selectionSort(arr)
     n = arr.length
     for i from 0 to n-1
         minIndex = i
@@ -21,10 +21,11 @@ function selectionSort(arr)
                 minIndex = j
         swap arr[i] and arr[minIndex]
     return arr
+```
 
 
 ## Insertion Sort
-function insertionSort(arr)
+```function insertionSort(arr)
     n = arr.length
     for i from 1 to n-1
         key = arr[i]
@@ -34,18 +35,20 @@ function insertionSort(arr)
             j = j - 1
         arr[j+1] = key
     return arr
+```
 
 
 ## Merge Sort
-function mergeSort(arr)
+```function mergeSort(arr)
     if arr.length <= 1
         return arr
     mid = arr.length / 2
     left = mergeSort(arr[0...mid])
     right = mergeSort(arr[mid...])
     return merge(left, right)
+```
 
-function merge(left, right)
+```function merge(left, right)
     result = []
     while left is not empty and right is not empty
         if left[0] <= right[0]
@@ -61,10 +64,11 @@ function merge(left, right)
         result.push(right[0])
         right = right[1...]
     return result
+```
 
 
 ## Quick Sort
-function quickSort(arr)
+```function quickSort(arr)
     if arr.length <= 1
         return arr
     pivot = arr[arr.length / 2]
@@ -75,3 +79,4 @@ function quickSort(arr)
         else if x > pivot
             right.push(x)
     return concatenate(quickSort(left), [pivot], quickSort(right))
+```
