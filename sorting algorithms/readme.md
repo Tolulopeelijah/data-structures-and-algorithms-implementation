@@ -8,7 +8,8 @@
         for j from 0 to n-i-1
             if arr[j] > arr[j+1]
                 swap arr[j] and arr[j+1]
-    return arr```
+    return arr
+```
 
 
 ## Selection Sort
@@ -46,9 +47,9 @@
     left = mergeSort(arr[0...mid])
     right = mergeSort(arr[mid...])
     return merge(left, right)
-```
 
-```function merge(left, right)
+
+function merge(left, right)
     result = []
     while left is not empty and right is not empty
         if left[0] <= right[0]
