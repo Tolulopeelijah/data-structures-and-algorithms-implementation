@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# data-structures-and-algorithms-implementation
-Implementation of some data structures and algorithms
-=======
 # Data Structures and Algorithms Implementation
 
 ## This repository provides implementations of various data structures and algorithms
@@ -47,4 +43,3 @@ Push Changes: Push your committed changes to your forked repository on the hosti
 ```git push origin main```
 
 Create a Pull Request: Go to your forked repository and initiate a pull request to submit the changes made
->>>>>>> 0c328fddfa4a0474e4a6acf419bcc0de18353867
