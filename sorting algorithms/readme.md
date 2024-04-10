@@ -1,5 +1,5 @@
 # Pseudo code for the sorting algorithms
-
+link for visualization of the algorithms: https://visualgo.net/en/sorting
 
 ## Bubble Sort
 ```function bubbleSort(arr)
