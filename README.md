@@ -1,45 +1,40 @@
-# Data Structures and Algorithms Implementation
+# Algorithm Implementations
 
-## This repository provides implementations of various data structures and algorithms
+Welcome to the Algorithm Implementations repository! This repository contains various algorithm implementations categorized into different folders for better organization and ease of access. Below is the structure and purpose of each folder.
 
-<h2>Getting Started</h2>
+## Folder Structure
 
-<li>Fork the Repository</li>
-  <li>Create your own copy of this repository by clicking the "Fork" button.</li>
+### 1. Sorting Algorithms
+This folder contains implementations of various sorting algorithms(ascending n descending).
+**Algorithms included:**
+- Bubble Sort
+- Quick Sort
+- Merge Sort
+- Insertion Sort
+- Selection Sort
+- Heap Sort
 
-<li>Clone Your Fork</li>
-Open Git Bash on your local machine and clone your forked repository using the following command:
+### 2. Searching Algorithms
+This folder includes implementations of different searching algorithms. 
+**Algorithms included:**
+- Linear Search
+- Binary Search
+- Depth-First Search (DFS)
+- Breadth-First Search (BFS)
 
-``` git clone https://github.com/Tolulopeelijah/data-structures-and-algorithms-implementation.git```
 
-Make Changes Locally: Navigate to the cloned directory using cd:
+### 3. Algorithm Collections
+This folder contains my implementations of various algorithms that I have learned about. These algorithms cover a range of topics and problem-solving techniques.
 
-``` cd data-structures-and-algorithms-implementation```
+**Algorithms included:**
+- Dijkstra's Algorithm
+- Knapsack Problem
+- Longest Common Subsequence (LCS)
+- Prim's and Kruskal's Algorithms
 
-Now you can edit the code and documentation files using your preferred text editor.
+## How to Use
 
-<h2>Contributing</h2>
-
-How to contribute
-
-<li>Improve Algorithms: Enhance existing algorithms by optimizing their performance or readability.</li>
-<li>Enhance Documentation: Provide clearer explanations within the code comments or improve the overall README documentation.</li>
-<li>Reformat Code: Ensure code adheres to consistent style conventions for better maintainability.</li>
-<li>Add New Algorithms: Implement new data structures and algorithms that you find interesting.</li>
-  
-<h3>Contribution Workflow</h3>
-
-Stage Changes: Add the files you've modified to the staging area using the git add command:
-
-``` git add .```
-
-Commit Changes: 
-Create a commit snapshot with a descriptive message summarizing your changes:
-
-```git commit -m "Improved sorting algorithm efficiency"```  (Replace the string with a brief of the changes made)
-
-Push Changes: Push your committed changes to your forked repository on the hosting platform:
-
-```git push origin main```
-
-Create a Pull Request: Go to your forked repository and initiate a pull request to submit the changes made
+Each folder contains subfolders or files for individual algorithms. Each algorithm includes:
+- The source code implementation (in Python, C, JavaScript, C++ and Java)
+- A brief explanation or comments within the code
+- Example usage or test cases
