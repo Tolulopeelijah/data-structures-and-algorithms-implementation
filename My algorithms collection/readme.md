@@ -1,6 +1,17 @@
-# List of interview questions I have approached
-<ol> Anagram Check</ol>
-<p>description: Given two strings, check to see if they are anagrams. An anagram is when two strings can be written using the exact same letters(can be rearranged to get a different phrase or word) e.g.
-``` "public relations" is an anagram of "crap built on lies."
-"clint eastwood" is an anagram of "old west action"
-```
+# Algorithms Repository
+
+This repository contains implementations and explanations of various algorithms. Each algorithm has its dedicated folder containing documentation and source code in multiple programming languages.
+
+## List of Algorithms
+
+- [Tower of Hanoi](./Tower_of_Hanoi/TowerOfHanoi.md)
+- [Euclidean Algorithm](./Euclidean_Algorithm/EuclideanAlgorithm.md)
+- ...
+
+## Contributing
+
+Feel free to contribute by adding new algorithms or improving existing ones. Please follow the contribution guidelines.
+
+## License
+
+This project is licensed under the MIT License.
