@@ -4,8 +4,8 @@ This repository contains implementations and explanations of various algorithms.
 
 ## List of Algorithms
 
-- [Tower of Hanoi](./Tower_of_Hanoi/TowerOfHanoi.md)
-- [Euclidean Algorithm](./Euclidean_Algorithm/EuclideanAlgorithm.md)
+- [Tower of Hanoi](https://github.com/Tolulopeelijah/data-structures-and-algorithms-implementation/blob/main/My%20algorithms%20collection/Euclidean%20Algorithm/readme.md)
+- [Euclidean Algorithm](https://github.com/Tolulopeelijah/data-structures-and-algorithms-implementation/blob/main/My%20algorithms%20collection/Euclidean%20Algorithm/readme.md)
 - ...
 
 ## Contributing
