@@ -12,6 +12,15 @@ The objective of the puzzle is to move the entire stack to another rod, obeying 
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack.
 3. No disk may be placed on top of a smaller disk.
 
+## My initial thoughts and observations
+
+- This problem is best solved using a recursive technique. The base case occurs when there is only one disk, which can be moved directly to the target rod.
+- With two disks, the smaller disk is moved to the auxiliary rod, the larger disk is moved to the target rod, and then the smaller disk is placed on top of the larger disk on the target rod.
+- With three disks, the first two disks are moved to the auxiliary rod, the third (largest) disk is moved to the target rod, and then the first two disks are moved from the auxiliary rod to the target rod.
+- Generalizing this pattern, for n disks, n-1 disks are first moved to the auxiliary rod, then the nth (largest) disk is moved to the target rod, and finally, the n-1 disks are moved from the auxiliary rod to the target rod.
+- After moving the nth disk to the target rod, the auxiliary rod effectively becomes the source rod for the remaining n-1 disks, and the original source rod becomes the new auxiliary rod. This process continues recursively until the base case is reached.
+
+
 ## Algorithm
 
 The algorithm to solve the Tower of Hanoi problem can be described recursively:
