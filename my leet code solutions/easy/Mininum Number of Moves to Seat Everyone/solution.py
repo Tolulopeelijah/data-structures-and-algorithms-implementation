@@ -21,18 +21,12 @@ def merge(nums1, m, nums2, n):
         j = 0
 
         for  _ in range(n):
-            # print((nums2[j], nums1[i], j, i))
             if nums2[j] < nums1[i]:
-                print('got here')
-                
                 nums1.insert(i, nums2[j])
-                # print('nums: ', nums1)
                 j += 1
                 break
         i += 1
     nums1 += nums2[j+1:]
-    print(j+1)
-    print(n)
     return nums1
 
 print(merge([1,2,3,0,0,0], 3, [3,4,5, 0,0], 3))
