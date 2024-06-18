@@ -31,10 +31,11 @@ This folder contains my implementations of various algorithms that I have learne
 - Knapsack Problem
 - Longest Common Subsequence (LCS)
 - Prim's and Kruskal's Algorithms
+  ...
 
 ## How to Use
 
 Each folder contains subfolders or files for individual algorithms. Each algorithm includes:
-- The source code implementation (in Python, C, JavaScript, C++ and Java)
+- The source code implementation (in Python, C, JavaScript and Java)
 - A brief explanation or comments within the code
 - Example usage or test cases
